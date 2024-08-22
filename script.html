@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script>
+            function speak() {
+                alert('Hello');
+            }
+        </script>
+        <script>
+            function greet() {
+                alert('Greetings!');
+            }
+        </script>
+		<script>
+			const element = document.getElementById("myBtn");
+			element.addEventListener("click", myFunction);
+			
+			function myFunction() {
+			  document.getElementById("demo").innerHTML = "Hello World";
+			}
+			</script>
+    </head>
+    <body>
+        <button onclick="speak()">Click Me</button>
+        <button onclick="greet()">Greet Me</button>
+    </body>
+</html>
